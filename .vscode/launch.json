@@ -1,0 +1,350 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch hgvhgc",
+            "request": "launch",
+            "mainClass": "hgvhgc",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch isomorphicStrings",
+            "request": "launch",
+            "mainClass": "isomorphicStrings",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch assemblyProblemGFG",
+            "request": "launch",
+            "mainClass": "assemblyProblemGFG",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch user",
+            "request": "launch",
+            "mainClass": "user",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch discount",
+            "request": "launch",
+            "mainClass": "discount",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch pascal",
+            "request": "launch",
+            "mainClass": "pascal",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch qsssss",
+            "request": "launch",
+            "mainClass": "qsssss",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch DynamicProgrammingPage1",
+            "request": "launch",
+            "mainClass": "DynamicProgrammingPage1",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch pascalsTriangle",
+            "request": "launch",
+            "mainClass": "pascalsTriangle",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch diamondStarPattern",
+            "request": "launch",
+            "mainClass": "diamondStarPattern",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumEnergy",
+            "request": "launch",
+            "mainClass": "minimumEnergy",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch accentureQS",
+            "request": "launch",
+            "mainClass": "accentureQS",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch substring",
+            "request": "launch",
+            "mainClass": "substring",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch primeORnot",
+            "request": "launch",
+            "mainClass": "primeORnot",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowRECTANGLE_using_Recurrsion_in_JAVA",
+            "request": "launch",
+            "mainClass": "hollowRECTANGLE_using_Recurrsion_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch HappyNumber",
+            "request": "launch",
+            "mainClass": "HappyNumber",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch sort_array_of_0s1s2s",
+            "request": "launch",
+            "mainClass": "sort_array_of_0s1s2s",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch percentage",
+            "request": "launch",
+            "mainClass": "percentage",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page4_about_Operators_and_BIT_Manipulation_Explained",
+            "request": "launch",
+            "mainClass": "page4_about_Operators_and_BIT_Manipulation_Explained",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch java_recursion_practice",
+            "request": "launch",
+            "mainClass": "java_recursion_practice",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page19_Recursion_in_JAVA",
+            "request": "launch",
+            "mainClass": "page19_Recursion_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page19_Recurrsion_in_JAVA",
+            "request": "launch",
+            "mainClass": "page19_Recurrsion_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Recurrsion_in_JAVA",
+            "request": "launch",
+            "mainClass": "Recurrsion_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch anagrams_in_JAVA",
+            "request": "launch",
+            "mainClass": "anagrams_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Anagram_Check_using_Functions",
+            "request": "launch",
+            "mainClass": "Anagram_Check_using_Functions",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch java_qss",
+            "request": "launch",
+            "mainClass": "java_qss",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page18_Interfaces_in_JAVA",
+            "request": "launch",
+            "mainClass": "page18_Interfaces_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page17_Abstraction_in_JAVA",
+            "request": "launch",
+            "mainClass": "page17_Abstraction_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page16_Method_Overriding_in_JAVA",
+            "request": "launch",
+            "mainClass": "page16_Method_Overriding_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page15_Inheritence_in_JAVA",
+            "request": "launch",
+            "mainClass": "page15_Inheritence_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page14_Practice_on_Constructors",
+            "request": "launch",
+            "mainClass": "page14_Practice_on_Constructors",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Game2_Number_Guessing_game",
+            "request": "launch",
+            "mainClass": "Game2_Number_Guessing_game",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page13_Constructors_in_JAVA",
+            "request": "launch",
+            "mainClass": "page13_Constructors_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Game1_Rock_Paper_Scissor",
+            "request": "launch",
+            "mainClass": "Game1_Rock_Paper_Scissor",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page12_OOPS_in_JAVA",
+            "request": "launch",
+            "mainClass": "page12_OOPS_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page11_Sorting_in_JAVA",
+            "request": "launch",
+            "mainClass": "page11_Sorting_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page_10_method_Overloading",
+            "request": "launch",
+            "mainClass": "page_10_method_Overloading",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page10_method_Overloading",
+            "request": "launch",
+            "mainClass": "page10_method_Overloading",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page9_methods_in_JAVA",
+            "request": "launch",
+            "mainClass": "page9_methods_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page8_arrays_in_JAVA",
+            "request": "launch",
+            "mainClass": "page8_arrays_in_JAVA",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page1",
+            "request": "launch",
+            "mainClass": "page1",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page2",
+            "request": "launch",
+            "mainClass": "page2",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page3",
+            "request": "launch",
+            "mainClass": "page3",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page4_about_Operators_Explained",
+            "request": "launch",
+            "mainClass": "page4_about_Operators_Explained",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page5_about_Strings_Explained",
+            "request": "launch",
+            "mainClass": "page5_about_Strings_Explained",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page6_about_Conditionals_Exaplined",
+            "request": "launch",
+            "mainClass": "page6_about_Conditionals_Exaplined",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch page7_practice_problems",
+            "request": "launch",
+            "mainClass": "page7_practice_problems",
+            "projectName": "Java project1_e39432a"
+        }
+    ]
+}
