@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch duplicatesInArray",
+            "request": "launch",
+            "mainClass": "duplicatesInArray",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch hgvhgc",
             "request": "launch",
             "mainClass": "hgvhgc",
