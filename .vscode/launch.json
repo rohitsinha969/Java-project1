@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch permutation",
+            "request": "launch",
+            "mainClass": "permutation",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch leetcode_2016",
             "request": "launch",
             "mainClass": "leetcode_2016",
