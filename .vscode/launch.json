@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch numericInvertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.numericInvertedHalfPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch invertedHalfPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.invertedHalfPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch numericHalfPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.numericHalfPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.halfPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch hollowRectangle",
+            "request": "launch",
+            "mainClass": "patternQuestions.hollowRectangle",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch solidRectangle",
             "request": "launch",
             "mainClass": "patternQuestions.solidRectangle",

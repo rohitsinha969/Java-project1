@@ -2,17 +2,16 @@ package patternQuestions;
 
 import java.util.Scanner;
 
-public class solidRectangle {
+public class invertedHalfPyramid {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int row = scan.nextInt();
-        int col = scan.nextInt();
-
-        for(int i=0; i<row; i++){
-            for(int j=0 ; j<col; j++){
+        int n = scan.nextInt();
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n - row; col++) {
                 System.out.print("*" + " ");
             }
             System.out.println();
         }
+        scan.close();
     }
 }
