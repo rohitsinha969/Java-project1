@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch solidRectangle",
+            "request": "launch",
+            "mainClass": "patternQuestions.solidRectangle",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch permutation",
             "request": "launch",
             "mainClass": "permutation",
