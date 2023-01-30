@@ -4,11 +4,11 @@ public class weirdNumberPattern {
     public static void main(String[] args) {
         /*
          * Print the pattern
-         * 5 4 3 2 1 2 3 4 5
-         * 4 1 1 4
-         * 3 1 1 3
-         * 2 1 1 2
-         * 1 1
+         * 5_4_3_2_1_2_3_4_5
+         * 4_____1___1_____4
+         * 3___1_______1___3
+         * 2_1___________1_2
+         * 1_______________1
          */
 
         int n = 5;
