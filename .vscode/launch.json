@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch weirdNumberPattern",
+            "request": "launch",
+            "mainClass": "patternQuestions.weirdNumberPattern",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch numericInvertedHalfPyramid",
             "request": "launch",
             "mainClass": "patternQuestions.numericInvertedHalfPyramid",
