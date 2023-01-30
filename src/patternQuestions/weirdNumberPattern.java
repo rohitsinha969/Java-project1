@@ -2,6 +2,15 @@ package patternQuestions;
 
 public class weirdNumberPattern {
     public static void main(String[] args) {
+        /*
+         * Print the pattern
+         * 5 4 3 2 1 2 3 4 5
+         * 4 1 1 4
+         * 3 1 1 3
+         * 2 1 1 2
+         * 1 1
+         */
+
         int n = 5;
         int space = n - 3;
         int odd = 1;
