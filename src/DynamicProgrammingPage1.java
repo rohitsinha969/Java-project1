@@ -31,7 +31,7 @@ public class DynamicProgrammingPage1 {
     }
 
     public static void main(String[] args) {
-        int n = 7;
+        int n = 5;
         /*
          * int dp[] = new int[n + 1];
          * for (int i = 0; i < dp.length; i++) {
@@ -40,14 +40,18 @@ public class DynamicProgrammingPage1 {
          */
 
         // Space Optimisation method
-        int prev1 = 1;
-        int prev2 = 0;
-        for (int i = 2; i <= n; i++) {
-            int curr = prev1 + prev2;
-            prev2 = prev1;
-            prev1 = curr;
+        if(n==0){
+            System.out.println(0);
+        }else{        
+            int prev1 = 1;
+            int prev2 = 0;
+            for (int i = 2; i <= n; i++) {
+                int curr = prev1 + prev2;
+                prev2 = prev1;
+                prev1 = curr;
+            }
+            // System.out.println(fibonacci(n - 1, dp));
+            System.out.println(prev1);
         }
-        // System.out.println(fibonacci(n - 1, dp));
-        System.out.println(prev1);
     }
 }
