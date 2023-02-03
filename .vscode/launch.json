@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch completeHollowDiamond",
+            "request": "launch",
+            "mainClass": "patternQuestions.completeHollowDiamond",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch completeDiamond",
+            "request": "launch",
+            "mainClass": "patternQuestions.completeDiamond",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch fullStarPyramid",
             "request": "launch",
             "mainClass": "patternQuestions.fullStarPyramid",
