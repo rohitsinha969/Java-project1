@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fullStarPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.fullStarPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch fullPyramid",
+            "request": "launch",
+            "mainClass": "patternQuestions.fullPyramid",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch strongNumbersUsingFactors",
+            "request": "launch",
+            "mainClass": "strongNumbersUsingFactors",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch hollowNumberTrianglePattern",
             "request": "launch",
             "mainClass": "patternQuestions.hollowNumberTrianglePattern",
