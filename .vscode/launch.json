@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HomeworkPatterns",
+            "request": "launch",
+            "mainClass": "patternQuestions.HomeworkPatterns",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
+            "name": "Launch fancyNumberTraingle",
+            "request": "launch",
+            "mainClass": "patternQuestions.fancyNumberTraingle",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch completeHollowDiamond",
             "request": "launch",
             "mainClass": "patternQuestions.completeHollowDiamond",
