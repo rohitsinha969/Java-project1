@@ -1,25 +1,43 @@
 package patternQuestions;
 
+import java.util.Scanner;
+
 public class fancyNumberTraingle {
     public static void main(String[] args) {
-        int rows = 4;
-        int x = 1;
+        Scanner scan = new Scanner(System.in);
 
-        // Print triangle in increasing order
-        for (int i = 1; i <= rows; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(x + " ");
-                x++;
+        int n = scan.nextInt();
+
+        int val = 1;
+
+        for (int row = 1; row <= n; row++) {
+            for (int col = 1; col <= row; col++) {
+                if (col == row) {
+                    System.out.print(val);
+                } else {
+                    System.out.print(val + "*");
+                }
+                val++;
             }
             System.out.println();
         }
-
-        // Print triangle in decreasing order
-        for (int i = rows; i >= 1; i--) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print((x-rows)+ " ");
+        // val = 11
+        // val = 11;
+        for (int row = n; row > 0; row--) {
+            val = val - row;
+            int newVal = val;
+            for (int col = row; col > 0; col--) {
+                if (col == 1) {
+                    System.out.print(val);
+                } else {
+                    System.out.print(val + "*");
+                }
+                val++;
             }
+            val = newVal;
             System.out.println();
         }
+
+        scan.close();
     }
 }
