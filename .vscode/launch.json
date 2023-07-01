@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedLists_in_Java",
+            "request": "launch",
+            "mainClass": "LinkedLists_in_Java",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "Launch HomeworkPatterns",
             "request": "launch",
             "mainClass": "patternQuestions.HomeworkPatterns",
