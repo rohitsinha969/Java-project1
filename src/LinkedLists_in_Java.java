@@ -16,6 +16,21 @@ public class LinkedLists_in_Java {
         }
     }
 
+    public static Node insertAtHead(Node head, int data) {
+        // steps involved :
+        // 1 - create a NewNode whenever needed
+        // 2 - point the next of NewNode to Head
+        // 3 - update the Head to NewNode so next time more Nodes gets attached to Head
+
+        // step 1
+        Node newNode = new Node(data);
+        // step 2
+        newNode.next = head;
+        // step 3
+        // head = newNode;
+        return newNode;
+    }
+
     // function to print Linked List
     public static void printLinkedList(Node head) {
         Node curr = head;
@@ -27,20 +42,30 @@ public class LinkedLists_in_Java {
     }
 
     public static void main(String[] args) {
-        // creating different nodes
-        Node head = new Node(1);
-        Node second = new Node(2);
-        Node third = new Node(3);
-        Node forth = new Node(4);
-        Node fifth = new Node(5);
 
-        // connecting different nodes together
-        head.next = second;
-        second.next = third;
-        third.next = forth;
-        forth.next = fifth;
-        fifth.next = null;
+        /*
+         * // very Un-Professional Method of doing this
+         * // creating different nodes
+         * Node head = new Node(1);
+         * Node second = new Node(2);
+         * Node third = new Node(3);
+         * Node forth = new Node(4);
+         * Node fifth = new Node(5);
+         * 
+         * // connecting different nodes together
+         * head.next = second;
+         * second.next = third;
+         * third.next = forth;
+         * forth.next = fifth;
+         * fifth.next = null;
+         * 
+         */
 
+        Node head = new Node(10);
+        head = insertAtHead(head, 20);
+        head = insertAtHead(head, 30);
+        head = insertAtHead(head, 40);
+        head = insertAtHead(head, 50);
         // printing the Linked List by function call
         System.out.println("Linked List is : ");
         printLinkedList(head);
