@@ -30,6 +30,7 @@ public class LinkedLists_in_Java__Page1 {
             // 1 - create a NewNode whenever needed
             // 2 - point the next of NewNode to Head
             // 3 - update the Head to NewNode so next time more Nodes gets attached to Head
+            // ...
 
             // step 1
             Node newNode = new Node(data);
@@ -47,7 +48,7 @@ public class LinkedLists_in_Java__Page1 {
             // 1 - create a NewNode whenever needed
             // 2 - point the next of Head to NewNode
             // 3 - update the Null after NewNode so next time more Nodes gets attached after
-            // NewNode when needed
+            // NewNode when needed ...
             Node newNode = new Node(data);
             if (head == null) {
                 head = newNode;
