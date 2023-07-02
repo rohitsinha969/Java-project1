@@ -1,4 +1,4 @@
-public class LinkedLists_in_Java {
+public class LinkedLists_in_Java__Page1 {
     // creating class for Linked List
     public static class Node {
         int data;
