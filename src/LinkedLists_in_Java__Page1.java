@@ -62,6 +62,30 @@ public class LinkedLists_in_Java__Page1 {
         }
 
         // Insert at Position - At any Specified Index
+        public void insertAtAnyPosition(int data, int position) {
+            // steps involved :
+            // 1 - create a NewNode whenever needed between two Nodes
+            // 2 - look for the position where you want to insert that data say Prev and Curr
+            // 3 - now finally join the newNode next to curr and prev next to newNode ...
+            Node newNode = new Node(data);
+            if (head == null) {
+                head = newNode;
+                tail = newNode;
+                return;
+            }
+            int i=1;
+            Node prev = head;
+            Node curr = head;
+            while(i<position){
+                prev = prev.next;
+                i++;
+            }
+            curr = prev.next;
+
+            newNode.next = curr;
+            prev.next = newNode;
+        }
+
         public void printLinkedList() {
             Node curr = head;
             while (curr != null) {
@@ -119,6 +143,7 @@ public class LinkedLists_in_Java__Page1 {
         ll.insertAtTail(4);
         ll.insertAtTail(5);
 
+        ll.insertAtAnyPosition(500, 2);
         // printing the Linked List by function call
         System.out.println("Linked List is : ");
         ll.printLinkedList();
