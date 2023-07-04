@@ -25,6 +25,7 @@ public class LinkedLists_in_Java__Page1 {
             this.tail = null;
         }
 
+        // Insert at Head - Before the Head
         public void insertAtHead(int data) {
             // steps involved :
             // 1 - create a NewNode whenever needed
@@ -43,6 +44,7 @@ public class LinkedLists_in_Java__Page1 {
             }
         }
 
+        // Insert at Tail - Behind the Tail
         public void insertAtTail(int data) {
             // steps involved :
             // 1 - create a NewNode whenever needed
@@ -59,6 +61,7 @@ public class LinkedLists_in_Java__Page1 {
             }
         }
 
+        // Insert at Position - At any Specified Index
         public void printLinkedList() {
             Node curr = head;
             while (curr != null) {
