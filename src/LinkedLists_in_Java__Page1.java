@@ -86,6 +86,12 @@ public class LinkedLists_in_Java__Page1 {
             prev.next = newNode;
         }
 
+        // Delete at any Position - Head/Tail/Any Posy
+        public void deleteAtAnyPosition(int position, int data){
+            // try completing this on your own bro
+        }
+
+        // Printing Linked List
         public void printLinkedList() {
             Node curr = head;
             while (curr != null) {
