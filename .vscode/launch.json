@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedLists_in_Java__Page2",
+            "request": "launch",
+            "mainClass": "LinkedLists_in_Java__Page2",
+            "projectName": "Java project1_e39432a"
+        },
+        {
+            "type": "java",
             "name": "LinkedLists_in_Java__Page1",
             "request": "launch",
             "mainClass": "LinkedLists_in_Java__Page1",
