@@ -117,6 +117,7 @@ public class LinkedLists_in_Java__Page2 {
         ll.insertAtTail(4);
         ll.insertAtTail(5);
 
+        // Printing the Linked List :
         System.out.println("Linked List is : ");
         ll.printLinkedList();
     }
